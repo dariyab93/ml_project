@@ -4,7 +4,7 @@
 This project aims to develop a predictive model to classify synapses into different genotypes based on their synaptic characteristics. The model was trained using data collected during my Ph.D. research on synaptic behavior in neurons under various conditions. The goal was to predict the genotype (Wild Type, Unc13A-RNAi, Unc13B-RNAi) of synapses using several engineered features.
 
 ## Data
-The dataset used in this project contains measurements of synaptic strength and protein contents across synapses. Key features include synaptic release probability before drug treatment (`pr_before`), total Unc13 and Brp protein counts (`unc_sum`, `brp_sum`), as well as several interaction features (`unc_brp_ratio`, `unc_brp_interaction`, etc.). The data is stored in the `/data` folder as a CSV file (`synapses2.csv`).
+The dataset used in this project contains measurements of synaptic strength and protein contents across synapses. Key features include synaptic release probability before drug treatment (basal release probability) (`pr_before`), total Unc13 and Brp protein counts (`unc_sum`, `brp_sum`), as well as several interaction features (`unc_brp_ratio`, `unc_brp_interaction`, etc.). The data is stored in the `/data` folder as a CSV file (`synapses2.csv`).
 
 ## Repository Structure
 The repository has the following structure:
